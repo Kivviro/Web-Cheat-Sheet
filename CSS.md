@@ -127,7 +127,7 @@ p {
 
 | Элемент            | Для чего используется                     | Пример                                |
 |--------------------|--------------------------------------------|----------------------------------------|
-| `color`            | Цвет текста                                | `color: red;` `color: #FF0000;` `color: rgb(255, 0, 0);` `color: hsl(0, 100%, 50%);   /* красный */` |
+| `color`            | Цвет текста                                | `color: red;` `color: #FF0000;` `color: rgb(255, 0, 0);` `color: hsl(0, 100%, 50%);` |
 | `background-color` | Цвет фона                                  | `background-color: #f0f0f0;`           |
 | `font-size`        | Размер шрифта                              | `font-size: 16px;`                     |
 | `font-family`      | Шрифт текста                               | `font-family: Arial, sans-serif;`     |
