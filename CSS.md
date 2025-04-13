@@ -122,7 +122,34 @@ p {
 
 ---
 
-## 6. Пример простого красивого сайта (HTML + CSS)
+## 6. Самый самый базовый синтаксис CSS
+[Полное руководство](https://developer.mozilla.org/ru/docs/Web/CSS/Reference)
+
+| Элемент            | Для чего используется                     | Пример                                |
+|--------------------|--------------------------------------------|----------------------------------------|
+| `color`            | Цвет текста                                | `color: red;`                          |
+| `background-color` | Цвет фона                                  | `background-color: #f0f0f0;`           |
+| `font-size`        | Размер шрифта                              | `font-size: 16px;`                     |
+| `font-family`      | Шрифт текста                               | `font-family: Arial, sans-serif;`     |
+| `text-align`       | Выравнивание текста                        | `text-align: center;`                 |
+| `margin`           | Внешний отступ                             | `margin: 20px;`                        |
+| `padding`          | Внутренний отступ                          | `padding: 10px;`                       |
+| `border`           | Граница элемента                           | `border: 1px solid black;`            |
+| `width`            | Ширина элемента                            | `width: 300px;`                        |
+| `height`           | Высота элемента                            | `height: 100px;`                       |
+| `display`          | Тип отображения элемента                   | `display: flex;`                       |
+| `position`         | Позиционирование элемента                  | `position: absolute;`                 |
+| `top`, `left`, etc.| Смещение при позиционировании              | `top: 10px; left: 5px;`               |
+| `z-index`          | Уровень перекрытия (по оси Z)              | `z-index: 10;`                         |
+| `overflow`         | Поведение при переполнении контента        | `overflow: hidden;`                   |
+| `cursor`           | Вид курсора при наведении                  | `cursor: pointer;`                    |
+| `transition`       | Анимация изменения стилей                  | `transition: all 0.3s ease;`          |
+| `box-shadow`       | Тень вокруг элемента                       | `box-shadow: 2px 2px 5px rgba(0,0,0,0.3);` |
+| `border-radius`    | Скругление углов                           | `border-radius: 10px;`                |
+| `flex`, `grid`     | Современные системы раскладки              | `display: flex; justify-content: center;` |
+
+
+## 7. Пример простого сайта (HTML + CSS)
 
 **index.html**
 ```html
